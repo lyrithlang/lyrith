@@ -10,43 +10,9 @@ Lyrith is a personal project to essentially mash together elements of other prog
 - **Memory safe** via borrow checking and capability-based security  
   _Inspired by Rust and Pony_
 - **Runtime debuggable** (in specific execution modes)
-- **Simple** via no hidden control flow, memory allocations, preprocessing and macros  
+- **Simple** via no hidden control flow, memory allocations and preprocessor  
   _Inspired by Zig_
 - **Easy** to read and write, with syntatic roots in _Python_
-
-## Roadmap
-
-### Proof of Concept (LLVM via llvmlite)
-
-- Compiler Frontend
-  - [ ] ASTGen
-  - [ ] LLVM IR CodeGen
-
-- Featureset
-  - [ ] Memory Safety
-  - [ ] Capabilities-based Security
-  - [ ] Actor-model Concurrency Threads
-  - [ ] Fault Tolerance
-
-### Working Demo (Self-Hosted Compiler)
-
-- Compiler Frontend (Re-implementation)
-  - [ ] In-house Packrat Parser
-  - [ ] ASTGen
-  - [ ] Lyric IR CodeGen
-
-- Compiler Backend via Lyric
-  - [ ] IR Optimisation Passes
-  - [ ] Execution Environment
-  - [ ] Faster-than-Light Just-in-Time Compilation
-  - [ ] Ahead-of-Time Compilation
-    - [ ] amd64 CodeGen
-    - [ ] aarch64 CodeGen
-
-- Compiler + Toolchain Featureset
-  - [ ] Non-Halting Errors
-  - [ ] Runtime Debugging via Introspection and Reflection
-  - [ ] Hot Reloading
 
 ## Copyright and Licence
 
